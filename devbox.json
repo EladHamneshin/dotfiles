@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
+    "packages": [
+      "gum@0.14.1",
+      "stow@2.4.0",
+      "unzip@latest"
+    ],
+    "shell": {
+      "init_hook": [
+        "autoload -Uz compinit",
+        "compinit"
+    ],
+      "scripts": {}
+    }
+  }
