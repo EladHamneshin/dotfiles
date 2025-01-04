@@ -14,12 +14,12 @@ fc-cache -fv
 
 #install zinit
 echo "installing zinit..."
-curl -fsSL https://git.io/zinit-install | bash
+curl -fsSL https://git.io/zinit-install | sh
 
 #install starship
 echo "installing starship..."
-curl -fsSL https://starship.rs/install.sh | bash
+curl -fsSL https://starship.rs/install.sh | sh
 
 #install devbox
 echo "installing devbox..."
-curl -fsSL https://get.jetify.com/devbox | bash
+curl -fsSL https://get.jetify.com/devbox | sh
