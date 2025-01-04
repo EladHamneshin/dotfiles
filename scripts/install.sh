@@ -9,5 +9,17 @@ if [ "$install_zsh" = "y" ]; then
     | gum format
 fi
 
+# add nerdfonts to fontconfig   
+fc-cache -fv 
+
+#install zinit
+echo "installing zinit..."
+curl -fsSL https://git.io/zinit-install | bash
+
+#install starship
+echo "installing starship..."
+curl -fsSL https://starship.rs/install.sh | bash
+
+#install devbox
 echo "installing devbox..."
 curl -fsSL https://get.jetify.com/devbox | bash

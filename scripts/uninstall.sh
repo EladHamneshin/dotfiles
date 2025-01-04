@@ -5,7 +5,8 @@ sudo sudo rm -rf \
     /nix \
     ~/.zshrc \
     ~/.config/starship.toml \
-    ~/.kube
+    ~/.kube \
+    ~/.zinit \
 
 read -p "Do you want to remove zsh? (y/n): " remove_zsh
 if [ "$remove_zsh" = "y" ]; then

@@ -1,9 +1,4 @@
-/.devbox
 /.gitignore
-/.teller.yml
 /.devbox.*
-/.gcloud
-/.install.sh
+/scripts
 /.git
-/.uninstall.sh
-/.sync.sh
