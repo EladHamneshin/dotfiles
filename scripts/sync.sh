@@ -2,7 +2,7 @@ if [ -f ~/.zshrc ]; then
     rm ~/.zshrc
 fi
 
-stow .
+stow --ignore='\scripts' --ignore='\.gitignore$' --ignore='\devbox.*' --ignore='\.git$' --ignore='README.md' .
 
 # apply new fonts
 fc-cache -fv

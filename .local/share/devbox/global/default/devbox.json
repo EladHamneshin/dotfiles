@@ -6,7 +6,7 @@
       "zoxide@latest",
       "fzf@latest",
       "eza@latest",
-      "thefuck@latest"
+      "kubecolor@latest"
     ],
     "shell": {
       "init_hook": [
