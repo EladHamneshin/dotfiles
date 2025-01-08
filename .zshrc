@@ -18,12 +18,6 @@ source <(kubectl completion zsh)
 # Starship
 eval "$(starship init zsh)"
 
-# The Fuck
-eval $(thefuck --alias)
-
-# Zoxide
-eval "$(zoxide init --cmd cd zsh)"
-
 # kubecolor
 compdef kubecolor=kubectl
 
@@ -61,7 +55,7 @@ zstyle ':completion:*' menu yes select
 # Aliases
 alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git'
 alias lst='eza --long --all --no-permissions --no-filesize --no-user --git --sort modified'
-alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'
+alias fzfp='fzf --preview "bat --style=numbers --color=always {}"'
 alias cat=' echo -e "\n- - - - - -\n"; bat --paging never --theme DarkNeon --style plain'
 alias kubectl='kubecolor'
 

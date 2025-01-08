@@ -3,7 +3,6 @@
     "packages": [
       "kubectl@latest",
       "bat@latest",
-      "zoxide@latest",
       "fzf@latest",
       "eza@latest",
       "kubecolor@latest"
