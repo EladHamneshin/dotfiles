@@ -14,6 +14,7 @@ export LANG=en_US.UTF-8
 source <(devbox completion zsh)
 source <(docker completion zsh)
 source <(kubectl completion zsh)
+source <(kind completion zsh)
 
 # Starship
 eval "$(starship init zsh)"
@@ -58,6 +59,8 @@ alias lst='eza --long --all --no-permissions --no-filesize --no-user --git --sor
 alias fzfp='fzf --preview "bat --style=numbers --color=always {}"'
 alias cat=' echo -e "\n- - - - - -\n"; bat --paging never --theme DarkNeon --style plain'
 alias kubectl='kubecolor'
+alias k='kubectl'
+alias kd='kind'
 
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"

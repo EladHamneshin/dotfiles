@@ -5,7 +5,8 @@
       "bat@latest",
       "fzf@latest",
       "eza@latest",
-      "kubecolor@latest"
+      "kubecolor@latest",
+      "kind@latest"
     ],
     "shell": {
       "init_hook": [
