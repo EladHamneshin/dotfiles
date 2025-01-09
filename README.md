@@ -3,10 +3,10 @@ This repository contains my personal configuration files (dotfiles) for various 
 
 
 ## Prerequisites
-- [git](https://git-scm.com/downloads)
-- [zsh](https://www.zsh.org/)
-- [docker](https://www.docker.com/products/docker-desktop)
 - [wsl](https://learn.microsoft.com/en-us/windows/wsl/install) (windows)
+- [zsh](https://www.zsh.org/)
+- [git](https://git-scm.com/downloads)
+- [docker](https://www.docker.com/products/docker-desktop)
 
 
 ## Installation
@@ -46,7 +46,7 @@ source ~/.zshrc
 ### Notes
 - Follow the instructions at https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions to enable Fira Code in VS Code
 
-- For wsl users, you need to manually install the fonts in the windows terminal. Go to the fonts folder in windows file explorer and install the fonts from there (right click and install).
+- For wsl users, you need to manually install the fonts in the windows terminal. Go to the fonts folder in windows file explorer and install the fonts from there (right click and install). Then go to the windows terminal settings and set the font to the Fira Code font you installed.
 
 - Follow the docs at https://www.jetify.com/docs/devbox/ to learn more about devbox.
 
